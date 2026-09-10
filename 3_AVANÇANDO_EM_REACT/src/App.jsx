@@ -4,7 +4,7 @@ import './App.css'
 import night from "./assets/night.jpg";
 
 // 3 - useState
-import Data from './components/Data';
+import Data from './components/data';
 
 // 4 - ListRender
 import ListRender from './components/Listrender';
@@ -22,6 +22,8 @@ function App() {
       {/* 3 - useState */}
       <Data />
       
+      {/* 4 - Renderizando Lista */}
+      <ListRender />
     </div>
   )
 }
