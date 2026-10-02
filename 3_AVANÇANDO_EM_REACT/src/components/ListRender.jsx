@@ -34,6 +34,7 @@ const ListRender = () => {
           </li>
         ))}
       </ul>
+      
       {/* 6 - previous state */}
       <button onClick={deleteRandom}>Delete random user</button>
     </div>
