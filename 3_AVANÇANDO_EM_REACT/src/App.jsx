@@ -14,8 +14,6 @@ import ConditionalRender from "./components/ConditionalRender";
 
 // 8 - props
 import ShowUserName from "./components/ShowUserName";
-
-// 9 Desestruturando props
 import CarDetails from "./components/CarDetails";
 
 // 11 - renderizacao de lista
@@ -37,7 +35,7 @@ import ExecuteFunction from "./components/ExecuteFunction";
 // 15 - state lift
 import { useState } from "react";
 
-import MessageState from "./components/Message";
+import MessageState from "./components/MessageState";
 import ChangeMessageState from "./components/ChangeMessageState";
 
 function App() {
